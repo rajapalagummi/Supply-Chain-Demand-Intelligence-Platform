@@ -1,0 +1,37 @@
+{
+  "dataset": {
+    "total_rows": 565500,
+    "unique_items": 100,
+    "unique_stores": 3,
+    "date_range": "2011-02-26 to 2016-04-24",
+    "zero_sales_pct": 69.38
+  },
+  "model_metrics": {
+    "mape": 58.6661,
+    "rmse": 1.3397,
+    "mae": 0.5583,
+    "n_train": 557100,
+    "n_val": 8400,
+    "best_iteration": 75
+  },
+  "sarimax_mape": 73.4528,
+  "mape_improvement": 14.79,
+  "top_shap_features": {
+    "zero_sales_flag": 1.1539,
+    "rolling_mean_28": 0.2234,
+    "rolling_std_28": 0.119,
+    "rolling_mean_7": 0.1023,
+    "dayofweek": 0.0797,
+    "sell_price": 0.0281,
+    "snap": 0.0148,
+    "lag_14": 0.0137,
+    "dayofmonth": 0.0105,
+    "lag_28": 0.0085
+  },
+  "inventory": {
+    "avg_safety_stock": 5.58,
+    "avg_reorder_point": 11.9,
+    "avg_eoq": 184.8,
+    "high_risk_items": 100
+  }
+}
