@@ -5,3 +5,5 @@ data/processed/
 mlruns/
 mlruns.db
 .DS_Store
+data/raw/*.csv
+data/raw/*.zip
