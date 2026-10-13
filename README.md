@@ -32,11 +32,11 @@ Retail supply chains lose margin through two failure modes: stockouts from under
 | Unique items (sample) | 100 |
 | Stores | 3 (CA_1, TX_1, WI_1) |
 | Zero sales rate | 69.4% |
-| LightGBM Validation MAPE | **58.34%** |
-| LightGBM RMSE | **1.3356** |
-| LightGBM MAE | **0.5577** |
+| LightGBM Validation MAPE | **58.67%** |
+| LightGBM RMSE | **1.3397** |
+| LightGBM MAE | **0.5583** |
 | SARIMAX Baseline MAPE | 73.45% |
-| MAPE Improvement over SARIMAX | **15.11pp** |
+| MAPE Improvement over SARIMAX | **14.79pp** |
 | Avg Safety Stock | 5.58 units |
 | Avg Reorder Point | 11.90 units |
 | Avg EOQ | 184.80 units |
